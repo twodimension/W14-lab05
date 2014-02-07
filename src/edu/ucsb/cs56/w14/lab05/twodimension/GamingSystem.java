@@ -75,4 +75,14 @@ public class GamingSystem {
 	//   It will be "correct" half the time by accident.
     }
 
+/* a sample main that uses the class */
+
+public static void main(String [] agrs){
+    GamingSystem Xbox360 = new GamingSystem("299","Xbox360");
+    System.out.println(Xbox360);
+
+
 }
+
+}
+
